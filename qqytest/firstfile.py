@@ -10,3 +10,7 @@ def BubblingSorting(x):
 if __name__=="__main__":
     a = [2,9,4,8,1,9,3,4,7]
     BubblingSorting(a)
+    print(sorted(a))
+    print(a)
+    a.sort(reverse=True)
+    print(a)
